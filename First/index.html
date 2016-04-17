@@ -1,0 +1,17 @@
+<!Doctype >
+<html>
+    <head>
+        <title>AngularJS First Application</title>
+        <script src="js/angular.js"></script>
+        <script src="js/script.js"></script>
+    </head>
+    <body ng-app="myModule">
+        <h1>Sample Application!!!!</h1>
+        <div ng-controller="myController">
+            {{test}} <br>
+            <input type="text" ng-model="test" />
+            <br>
+            <button ng-click="get()">Click</button>
+        </div>
+    </body>
+</html>   
